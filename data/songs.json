@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Cancion 1",
+    "artist": "Artista Desconocido",
+    "src": "songs/cancion1.mp3"
+  },
+  {
+    "title": "Cancion 2",
+    "artist":"Artista Desconocido",
+    "src": "songs/cancion2.mp3"
+  },
+  {
+    "title": "Cancion 3",
+    "artist":"Artista Desconocido",
+    "src": "songs/cancion3.mp3"
+  }
+]

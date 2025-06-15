@@ -1,0 +1,89 @@
+/* Fuente recomendada para estilo moderno */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #121212;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.player {
+  background: #1e1e1e;
+  padding: 30px 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  width: 320px;
+  text-align: center;
+  position: relative;
+}
+
+.player h1 {
+  font-size: 22px;
+  margin: 10px 0 5px;
+}
+
+.player h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #B3B3B3;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.controls button {
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  font-size: 26px;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  transform: scale(1.2);
+  color: #1DB954;
+}
+
+.progress-container {
+  margin-top: 20px;
+}
+
+#progress {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  background: #404040;
+  outline: none;
+}
+
+#progress::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  background: #1DB954;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  margin-top: -0.5px;
+}
+
+#progress::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  background: #1DB954;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
