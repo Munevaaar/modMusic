@@ -8,20 +8,21 @@
         </head>
     <body>
       <div class="player">
-        <h1 id="title">Canción 1</h1>
-        <h3 id="artist">Artista Desconocido</h3>
-        <audio id="audio" src="songs/cancion1.mp3"></audio>
-        <audio id="audio" preload="metadata"></audio>
-    
+        <img id="cover" src="" alt="Portada del álbum" class="cover" />
+        <h1 id="title">Título</h1>
+        <h3 id="artist">Artista</h3>
+
         <div class="controls">
           <button id="prev">⏮</button>
-          <button id="play">▶️</button>
+          <button id="play">▶</button>
           <button id="next">⏭</button>
         </div>
-    
+
         <div class="progress-container">
           <input type="range" id="progress" value="0" />
         </div>
+
+        <audio id="audio" preload="metadata"></audio>
       </div>
   
       <script src="index.js"></script>

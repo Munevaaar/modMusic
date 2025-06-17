@@ -87,3 +87,22 @@ body {
   cursor: pointer;
   border: none;
 }
+
+.cover {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 16px;
+  object-fit: cover;
+  margin: 0 auto 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  display: block;
+}
+
+.player {
+  background: #1e1e1e;
+  padding: 30px 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  width: 320px;
+  text-align: center;
+}

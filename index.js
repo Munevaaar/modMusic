@@ -33,7 +33,7 @@ function playPause() {
     playBtn.textContent = "⏸";
   } else {
     audio.pause();
-    playBtn.textContent = "▶️";
+    playBtn.textContent = "▶";
   }
 }
 

@@ -1,17 +1,27 @@
 [
   {
-    "title": "Cancion 1",
-    "artist": "Artista Desconocido",
-    "src": "songs/cancion1.mp3"
+    "title": "W Sound 05 'LA PLENA'",
+    "artist": "Beéle, Westcol, Ovy On The Drums",
+    "src": "songs/W Sound 05 'LA PLENA'.mp3",
+    "cover": "covers/la_plena.jpeg"
   },
   {
-    "title": "Cancion 2",
-    "artist":"Artista Desconocido",
-    "src": "songs/cancion2.mp3"
+    "title": "help herself",
+    "artist":"bbno$ x diamond pistols",
+    "src": "songs/help herself.mp3",
+    "cover": "covers/help_herself.jpg"
   },
   {
-    "title": "Cancion 3",
-    "artist":"Artista Desconocido",
-    "src": "songs/cancion3.mp3"
+    "title": "Cold Heart (PNAU Remix)",
+    "artist":"Elton John, Dua Lipa",
+    "src": "songs/Cold Heart.mp3",
+    "cover": "covers/cold_heart.jpg"
+  },
+  {
+    "title": "Pretty Boy",
+    "artist": "The Neighbourhood",
+    "src": "songs/Pretty Boy.mp3",
+    "cover": "covers/pretty_boy.jpg"
   }
+
 ]
